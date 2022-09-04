@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test123</title>
-    <header>
-
-        <h1>Contact us</h1>
-        <p></p>
-
-    </header>
+    <title>Contacts</title>
+ 
   
 </head>
 
-
+<!--https://www.youtube.com/watch?v=YjhrligRTbE-->
 
 <body>
-
     <nav>
         <a href="Index.Html">Home</a>
-
         <a href="Contact.html">Contact</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
         <p></p>
 
 
@@ -31,6 +26,17 @@
 
     
     </nav>
+
+    <header>
+
+        <h1>Contact us</h1>
+        <p></p>
+
+    </header>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YjhrligRTbE?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
 
     
     
@@ -50,21 +56,32 @@
 
 
 
-   <div style="background: ghostwhite; 
+   <div style="background: grey; 
    font-size: 20px; 
    padding: 10px; 
    border: 1px solid lightgray; 
    margin: 10px;">
+
+
+<fieldset>
+
+<label for="Gender">Gender:</label>
+<select id="Gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+
+  </select>
+
+
   <form action="mailto:firstname.lastname@mymail.eu">
     <label for="First">First name:</label><br>
     <input type="text" id="First" name="First" ><br>
     <label for="Last">Last name:</label><br>
     <input type="text" id="Last" name="Last" ><br><br>
-
     <label for="Message">Enter your message:</label>
 
-    <p></p>
 
+    <p></p>
 <textarea 
 
           id="story" name="story"
@@ -72,8 +89,18 @@
 
 </textarea>
 
+
+ 
+
+    <br>
+       <input type="checkbox">
+       <label for="checkbox">The information I have entered is correct</label><br>
+
     <input type="submit" value="Submit">
+
 </form>
+
+</fieldset>
 
 </div>
 
@@ -85,9 +112,14 @@
 
 </div>
 
+<footer>
+    <p>Author: Ludwig</p>
+    <p><a href="mailto:Exampletest123@hotmail.com">Exampletest123@hotmail.com</a></p>
+  </footer>
 
 
 </body>
 
 
 
+</html>
